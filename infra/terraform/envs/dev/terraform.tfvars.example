@@ -1,0 +1,5 @@
+# Copie ce fichier en "terraform.tfvars" pour changer des valeurs (ce dernier est ignoré par Git).
+region             = "eu-west-3"
+project            = "items-platform"
+environment        = "dev"
+single_nat_gateway = true

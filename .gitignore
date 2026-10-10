@@ -1,0 +1,36 @@
+# Secrets et configuration locale
+.env
+*.pem
+*.key
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+
+# Ansible
+*.retry
+infra/ansible/inventory/hosts.ini
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.db
+
+# Node
+node_modules/
+dist/
+
+# Divers
+.DS_Store
+.idea/
+.vscode/
+
+# Terraform : configuration du backend (contient le nom du bucket, propre à ton compte)
+backend.hcl

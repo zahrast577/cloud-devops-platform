@@ -1,0 +1,7 @@
+# Ce fichier est généré pour toi par la commande « terraform output backend_hcl » du dossier bootstrap.
+# Copie son résultat dans un fichier nommé backend.hcl (ignoré par Git).
+bucket       = "items-platform-tfstate-123456789012-eu-west-3"
+key          = "envs/dev/terraform.tfstate"
+region       = "eu-west-3"
+encrypt      = true
+use_lockfile = true
