@@ -11,3 +11,9 @@ module "vpc" {
   az_count           = 2
   single_nat_gateway = var.single_nat_gateway
 }
+module "ecr" {
+  source = "../../modules/ecr"
+
+  repository_names = ["items-api", "items-frontend"]
+  force_delete     = true
+}

@@ -13,3 +13,6 @@ output "private_subnet_ids" {
 output "nat_gateway_ids" {
   value = module.vpc.nat_gateway_ids
 }
+output "ecr_repository_urls" {
+  value = module.ecr.repository_urls
+}
